@@ -1,0 +1,9 @@
+#!name=QClaw Invite Bypass
+#!desc=Intercepts and mocks the QClaw invite code verification API to always return true.
+#!system=mac
+
+[Script]
+qclaw_bypass = type=http-response, pattern=^https:\/\/jprx\.m\.qq\.com\/data\/4056\/forward, requires-body=1, max-size=0, script-path=qclaw_bypass.js
+
+[MITM]
+hostname = %APPEND% jprx.m.qq.com, jprx.m.qq.com
