@@ -3,7 +3,7 @@
 #!system=mac
 
 [Script]
-qclaw_bypass = type=http-response, pattern=^https:\/\/jprx\.m\.qq\.com\/data\/4056\/forward, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/XueshiQiao/QClawByPass/refs/heads/main/qclaw_bypass.js
+qclaw_bypass = type=http-response, pattern=^https:\/\/jprx\.m\.qq\.com\/data\/4056\/forward, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/XueshiQiao/QClawBypass/refs/heads/main/qclaw_bypass.js
 
 [MITM]
 hostname = %APPEND% jprx.m.qq.com, jprx.m.qq.com
