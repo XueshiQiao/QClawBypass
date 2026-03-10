@@ -10,15 +10,21 @@
 
 
 ### 可用功能
+
+  
+✅  可以正常使用 QClaw App 的几乎所有功能
+
+使用示例：
+
+<img src="qclaw-screenshot.png" width="640">
+
+### 已知限制
 ~~✅ **完整微信关联功能**~~ (微信已不可用，会提示“设备不在线，请确认客户端已启动并连接网络” 2026-3-10 14:30）
 - ~~支持所有微信账号绑定操作~~
 - ~~可正常使用消息收发等核心功能~~
-- 可以正常使用 QClaw App 的几乎所有功能
 
-使用示例：
-<img src="qclaw-link-to-wechat.png" width="640">
+  <img src="qclaw-link-to-wechat.png" width="640">
 
-### 已知限制
 ❌ **内置API服务不可用**
 - 未激活状态下无法使用平台提供的免费API和KEY
 - 解决方案：需自行配置第三方API服务（如DeepSeek、火山引擎等）
