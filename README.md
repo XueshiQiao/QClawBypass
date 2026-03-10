@@ -38,6 +38,20 @@ https://raw.githubusercontent.com/XueshiQiao/QClawByPass/refs/heads/main/qclaw_b
 
 ### 其他格式欢迎提 PR （主要代码参考qclaw_bypass.sgmodule文件）
 
+### 验证
+#### 开全局代理，请求一下 https://jprx.m.qq.com/data/4056/forward
+
+```
+❯ curl -X POST https://jprx.m.qq.com/data/4056/forward -H "Content-Type: application/json" -d '{"test": "ping"}' 
+
+```
+#### 返回如果是 already_verified":true 就说明成功了
+
+```
+{"ret":0,"common":{"code":0,"message":"success"},"data":{"already_verified":true},"resp":{"data":{"already_verified":true},"common":{"code":0,"message":"success"}}}%
+
+```
+
 ## 使用建议
 1. 建议优先考虑官方授权使用方式
 2. 自行配置API时请注意数据安全和合规性
