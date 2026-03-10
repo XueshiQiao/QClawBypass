@@ -6,7 +6,7 @@ WARN: 仅作研究使用，正式使用请在官网[申请邀请码](https://wj.
 1. 可以正常使用关联微信
 
 使用示例：
-![link_to_wechat.png](link_to_wechat.png)
+![link_to_wechat.png](qclaw-link-to-wechat.png)
 
 2. 无法使用内置的免费 API 和 KEY（未激活）
 需要自行配置，QClaw 会弹窗，选择如 DeepSeek/火山引擎 等厂商即可。
@@ -16,3 +16,6 @@ WARN: 仅作研究使用，正式使用请在官网[申请邀请码](https://wj.
 https://raw.githubusercontent.com/XueshiQiao/QClawByPass/refs/heads/main/qclaw_bypass.sgmodule
 ```
 
+![link_to_wechat.png](qclaw-surge-01.png)
+
+![link_to_wechat.png](qclaw-surge-02.png)
